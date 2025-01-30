@@ -18,7 +18,7 @@ a {
     position: sticky;
     top: 0;
     background: linear-gradient(to right, #2e572e, #000);
-    color: white;
+    color: black;
     padding: 15px 30px;
     display: flex;
     justify-content: space-between;
@@ -43,7 +43,7 @@ a {
 }
 
 .navbar .nav-links a {
-    color: white;
+    color: black;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 12px;
@@ -62,7 +62,7 @@ a {
     background-size: cover;
     background-position: center;
     height: 100vh;
-    color: white;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -120,7 +120,7 @@ a {
 /* About Section */
 .about {
     background: linear-gradient(to bottom, #F9EFD3, #f4f4f4);
-    color: white;
+    color: black;
     padding: 80px 20px;
     text-align: center;
 }
@@ -136,7 +136,7 @@ a {
     line-height: 1.8;
     margin: 20px auto;
     max-width: 800px;
-    color: white;
+    color: black;
 }
 
 /* Menu Section */
@@ -150,7 +150,7 @@ a {
 .menu .section-title {
     font-size: 2.8rem;
     margin-bottom: 50px;
-    color: white;
+    color: black;
 }
 
 .menu-items {
@@ -199,7 +199,7 @@ a {
 /* Footer Styling */
 footer {
     background: linear-gradient(to right, #000, #2e572e);
-    color: white;
+    color: black;
     text-align: center;
     padding: 20px;
     font-size: 0.9rem;
