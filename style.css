@@ -1,10 +1,10 @@
 /* Global Styles */
 body {
     margin: 0;
-    font-family:"Playfair Display";
+    font-family: "Playfair Display";
     line-height: 1.6;
-    background: linear-gradient(to bottom, #f4f4f4, #fef6e4); /* Light neutral to soft yellow gradient */
-    color: #2e572e; /* Green for primary text */
+    background: linear-gradient(to bottom, #F9EFD3, #fef6e4); /* Cream to soft yellow */
+    color: white; /* White text */
 }
 
 a {
@@ -30,7 +30,7 @@ a {
 .navbar .logo {
     font-size: 26px;
     font-weight: bold;
-    color: #fce444; /* Yellow accent for the logo */
+    color: #F9EFD3; /* Cream accent for the logo */
 }
 
 .navbar .nav-links {
@@ -52,7 +52,7 @@ a {
 }
 
 .navbar .nav-links a:hover {
-    background-color: #fce444;
+    background-color: #F9EFD3;
     color: #000;
 }
 
@@ -95,12 +95,12 @@ a {
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #fce444; /* Yellow highlight */
+    color: #F9EFD3; /* Cream highlight */
 }
 
 .hero .cta-btn {
     padding: 12px 25px;
-    background: #fce444;
+    background: #F9EFD3;
     color: black;
     border: none;
     border-radius: 50px;
@@ -119,8 +119,8 @@ a {
 
 /* About Section */
 .about {
-    background: linear-gradient(to bottom, #fff, #f4f4f4);
-    color: #2e572e;
+    background: linear-gradient(to bottom, #F9EFD3, #f4f4f4);
+    color: white;
     padding: 80px 20px;
     text-align: center;
 }
@@ -128,7 +128,7 @@ a {
 .about .section-title {
     font-size: 2.8rem;
     margin-bottom: 30px;
-    color: #fce444; /* Yellow as an accent */
+    color: #F9EFD3; /* Cream as an accent */
 }
 
 .about p {
@@ -136,20 +136,21 @@ a {
     line-height: 1.8;
     margin: 20px auto;
     max-width: 800px;
-    color: #333; /* Dark text for readability */
+    color: white;
 }
 
 /* Menu Section */
 .menu {
-    background: linear-gradient(to bottom, #fef6e4, #fff);
+    background: linear-gradient(to bottom, #F9EFD3, #fff);
     padding: 60px 20px;
     text-align: center;
+    color: white;
 }
 
 .menu .section-title {
     font-size: 2.8rem;
     margin-bottom: 50px;
-    color: #2e572e;
+    color: white;
 }
 
 .menu-items {
@@ -160,13 +161,14 @@ a {
 }
 
 .menu-item {
-    background: #f8f8f8;
+    background: #F9EFD3;
     width: 300px;
     margin: 20px;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: black;
 }
 
 .menu-item img {
@@ -179,12 +181,12 @@ a {
 .menu-item h3 {
     font-size: 1.6rem;
     margin: 20px 0 10px;
-    color: #2e572e;
+    color: black;
 }
 
 .menu-item .price {
     font-size: 1.4rem;
-    color: #fce444;
+    color: #F9EFD3;
     font-weight: bold;
     margin-bottom: 10px;
 }
