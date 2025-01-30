@@ -1,7 +1,7 @@
 /* Global Styles */
 body {
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', Tempting;
     line-height: 1.6;
     background: linear-gradient(to bottom, #f4f4f4, #fef6e4); /* Light neutral to soft yellow gradient */
     color: #2e572e; /* Green for primary text */
