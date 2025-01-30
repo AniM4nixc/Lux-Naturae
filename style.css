@@ -3,8 +3,8 @@ body {
     margin: 0;
     font-family: "Playfair Display";
     line-height: 1.6;
-    background: linear-gradient(to bottom, #F9EFD3,); /* Cream to soft yellow */
-    color: black; /* black text */
+    background: linear-gradient(to bottom, #F9EFD3, #fff); /* Cream background */
+    color: black; /* Black text */
 }
 
 a {
@@ -128,7 +128,7 @@ a {
 .about .section-title {
     font-size: 2.8rem;
     margin-bottom: 30px;
-    color: #F9EFD3; /* Cream as an accent */
+    color: #F9EFD3; /* Cream accent */
 }
 
 .about p {
@@ -144,7 +144,6 @@ a {
     background: linear-gradient(to bottom, #F9EFD3, #fff);
     padding: 60px 20px;
     text-align: center;
-    color: white;
 }
 
 .menu .section-title {
@@ -186,7 +185,7 @@ a {
 
 .menu-item .price {
     font-size: 1.4rem;
-    color: #F9EFD3;
+    color: #F9EFD3; /* Cream accent */
     font-weight: bold;
     margin-bottom: 10px;
 }
