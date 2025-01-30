@@ -1,7 +1,7 @@
 /* Global Styles */
 body {
     margin: 0;
-    font-family: "Playfair Display";
+    font-family: "Playfair Display", serif;
     line-height: 1.6;
     background: linear-gradient(to bottom, #F9EFD3, #fff); /* Cream background */
     color: black; /* Black text */
@@ -120,15 +120,15 @@ a {
 /* About Section */
 .about {
     background: linear-gradient(to bottom, #F9EFD3, #f4f4f4);
-    color: black;
     padding: 80px 20px;
     text-align: center;
+    color: black; /* Ensures text is visible */
 }
 
 .about .section-title {
     font-size: 2.8rem;
     margin-bottom: 30px;
-    color: #F9EFD3; /* Cream accent */
+    color: black; /* Title is now black instead of cream */
 }
 
 .about p {
@@ -136,7 +136,7 @@ a {
     line-height: 1.8;
     margin: 20px auto;
     max-width: 800px;
-    color: black;
+    color: black; /* Ensures readability */
 }
 
 /* Menu Section */
@@ -144,12 +144,13 @@ a {
     background: linear-gradient(to bottom, #F9EFD3, #fff);
     padding: 60px 20px;
     text-align: center;
+    color: black; /* Set the default text color to black */
 }
 
 .menu .section-title {
     font-size: 2.8rem;
     margin-bottom: 50px;
-    color: black;
+    color: black; /* Make sure title is black */
 }
 
 .menu-items {
@@ -167,7 +168,7 @@ a {
     border-radius: 12px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    color: black;
+    color: black; /* Ensures text inside menu items is black */
 }
 
 .menu-item img {
@@ -180,12 +181,12 @@ a {
 .menu-item h3 {
     font-size: 1.6rem;
     margin: 20px 0 10px;
-    color: black;
+    color: black; /* Ensures menu item titles are black */
 }
 
 .menu-item .price {
     font-size: 1.4rem;
-    color: #F9EFD3; /* Cream accent */
+    color: #F9EFD3; /* Keeps price in cream */
     font-weight: bold;
     margin-bottom: 10px;
 }
