@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family: "Playfair Display";
     line-height: 1.6;
-    background: linear-gradient(to bottom, #F9EFD3, #fef6e4); /* Cream to soft yellow */
+    background: linear-gradient(to bottom, #F9EFD3,); /* Cream to soft yellow */
     color: white; /* White text */
 }
 
